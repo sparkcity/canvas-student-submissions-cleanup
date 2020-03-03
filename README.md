@@ -1,2 +1,2 @@
 # canvas-student-submissions-cleanup
-Script to read student roster from text file and delete submissions from students that aren't on the roster
+When using Canvas: on the assignment page, all student submissions from all sections using the Download Submissions option. Student names are the first word in the file name in the format of "lastfirst". A file submitted by student Jane Doe has the name as doejane_etc...etc.ext. Roster.txt containing names of students should be formatted in this same (doejane) way with each name on its own line. Script reads student roster from text file and delete submissions from students that aren't on the roster.
