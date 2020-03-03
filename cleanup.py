@@ -5,7 +5,6 @@ import os
 os.chdir('path\\to\\student\\submissions\\folder')
 
 roster_array = open("path\\to\\roster.txt").read().splitlines()
-print(roster_array)
 
 for file in os.listdir():
     complete_file_name, file_ext = os.path.splitext(file)
